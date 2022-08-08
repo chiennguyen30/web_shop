@@ -1,0 +1,25 @@
+/*max-with : nhỏ hơn hoặc bằng 
+  min-with : lơn hơn hoặc bằng 
+*/
+
+@media screen and (max-width:1024px) {
+    #main {
+        width: 768px;
+    }
+    .header {
+        width: 768px;
+    }
+    .header-midde {
+        position: relative;
+    }
+    .header-midde input {}
+    .header-midde Button {
+        margin-left: -140px;
+    }
+    .header-midde ul {
+        position: absolute;
+        top: 20;
+    }
+}
+
+@media screen and (max-width:768px) {}
